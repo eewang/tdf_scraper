@@ -1,0 +1,8 @@
+<html>
+  <% tickets.each do |ticket| %>
+    <h3><%= ticket[:show] %></h3>
+    <p><%= ticket[:price] %></p>
+    <p><%= ticket[:description] %></p>
+    <p><%= ticket[:dates] %></p>
+  <% end %>
+</html>
